@@ -51,4 +51,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
   }
 });
 
-app.listen(4000, () => console.log("✅ Backend running on http://localhost:4000"));
+app.listen(process.env.PORT || 4000, () =>
+  console.log("Server running on Render")
+);
+
