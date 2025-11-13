@@ -16,7 +16,7 @@ function App() {
 
     try {
       setLoading(true);
-      const res = await axios.post("https://social-media-analyzer-vq5m.onrender.com", formData, {
+      const res = await axios.post("https://social-media-analyzer-vq5m.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setResult(res.data);
