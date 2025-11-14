@@ -19,10 +19,9 @@ function App() {
       const res = await axios.post(
   "https://social-media-analyzer-7a8j.onrender.com/upload",
   formData,
-  {
-    headers: { "Content-Type": "multipart/form-data" },
-  }
+  { headers: { "Content-Type": "multipart/form-data" } }
 );
+
 
       setResult(res.data);
     } catch (err) {
