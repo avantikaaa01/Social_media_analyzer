@@ -17,12 +17,13 @@ function App() {
     try {
       setLoading(true);
       const res = await axios.post(
-  "https://social-media-analyzer-vq5m.onrender.com/upload",
+  "https://social-media-analyzer-7a8j.onrender.com/upload",
   formData,
   {
     headers: { "Content-Type": "multipart/form-data" },
   }
 );
+
       setResult(res.data);
     } catch (err) {
       setError(err.response?.data?.error || "Upload failed. Try again.");
