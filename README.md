@@ -3,8 +3,9 @@ Social Media Content Analyzer
 A full-stack web application that extracts and analyzes text from PDF or image files to provide engagement insights for social media posts.
 
 Live Demo
-Frontend (Vercel): https://social-media-analyzer-rose.vercel.app
-Backend (Render): https://social-media-analyzer-backend.onrender.com
+Frontend (Vercel): https://social-media-analyzer-frontend-ten.vercel.app
+Backend (Render):https://social-media-analyzer-7a8j.onrender.com
+
 
 Features
 
